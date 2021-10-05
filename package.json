@@ -1,0 +1,26 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "preforrest": "echo 'Antes...'",
+    "forrest": "cowsay -f dragon Run Forrest, run!",
+    "postforrest": "node forrest.js",
+    "dev": "./scripts.sh dev",
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "bash"
+  ],
+  "author": "Henrique Baêta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
