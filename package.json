@@ -2,7 +2,7 @@
   "name": "node-tests",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
+  "main": "test.js", 
   "scripts": {
     "preforrest": "echo 'Antes...'",
     "forrest": "cowsay -f dragon Run Forrest, run!",
