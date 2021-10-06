@@ -1,4 +1,5 @@
 import fs from 'fs/promises';
+// Para usar import é necessário criar a chave "type": "modules" no package.json
 
 const text = `Aqui vai um texto sobre o curso vencer Leitura.
 Um curso de leitura integral, onde treinamos velocidade de leitura com máxima
