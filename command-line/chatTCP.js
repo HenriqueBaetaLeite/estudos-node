@@ -9,6 +9,7 @@ const clientList = [];
 const broadCast = (message, client) => {
   clientList
     .filter((item) => item !== client)
+    // filtro a mensagem para que enviou não receber tbm
     .forEach((element) => element.write(message));
 };
 
