@@ -16,7 +16,7 @@ const render = (result) => {
   const items = result.data.results;
 
   const markdown = engine`
-#${title}
+${title}
 
 Tem ${count} pessoas
 
