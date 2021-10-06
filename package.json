@@ -8,7 +8,8 @@
     "forrest": "cowsay -f dragon Run Forrest, run!",
     "postforrest": "node forrest.js",
     "dev": "./scripts.sh dev",
-    "test": "jest"
+    "test": "jest",
+    "startchat": "nodemon command-line/server-http.js"
   },
   "keywords": [
     "node",
@@ -23,6 +24,7 @@
     "learnyounode": "^4.2.2"
   },
   "devDependencies": {
-    "jest": "^27.2.4"
+    "jest": "^27.2.4",
+    "nodemon": "^2.0.13"
   }
 }
