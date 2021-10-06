@@ -19,9 +19,11 @@
   "author": "Henrique Baêta",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.22.0",
     "debug": "^4.3.2",
     "express": "^4.17.1",
-    "learnyounode": "^4.2.2"
+    "learnyounode": "^4.2.2",
+    "marked": "^3.0.6"
   },
   "devDependencies": {
     "jest": "^27.2.4",
